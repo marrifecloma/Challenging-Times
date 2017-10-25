@@ -1,0 +1,5 @@
+<h2><%= @number_of_lizards %> lizards</h2>
+
+<% @number_of_lizards.times do %>
+  <%= Emoji.find_by_alias("lizard").raw %>
+<% end %>
