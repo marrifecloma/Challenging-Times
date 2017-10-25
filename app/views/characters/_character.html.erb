@@ -1,0 +1,14 @@
+<div class="character">
+  <p>
+    <strong>Name: </strong>
+    <%= character.name %>
+    <br />
+    <strong>Quote: </strong>
+    <%= character.quote %>
+
+    <% if display_details_link %>
+      <br />
+      <%= link_to 'Details', detail_path(character) %>
+    <% end %>
+  </p>
+</div>

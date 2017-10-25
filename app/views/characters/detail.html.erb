@@ -1,9 +1,8 @@
 <h2>Details: </h2>
 
-<p>
-  <strong>Name: </strong>
-  <%= @character.name %>
-</p>
+<%= render partial: 'character',
+           object: @character,
+           locals: { display_details_link: false } %>
 
 <p>
   <%= link_to 'Back', show_path %>

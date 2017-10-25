@@ -1,11 +1,5 @@
-<% @characters.each do |c| %>
-  <p>
-    <strong>Name: </strong>
-    <%= c.name %>
-    <br />
-    <strong>Quote: </strong>
-    <%= c.quote %>
-    <br />
-    <%= link_to 'Details', detail_path(c) %>
-  </p>
-<% end %>
+<h2>Rick and Morty Characters and Quotes</h2>
+
+<%= render partial: 'character',
+           collection: @characters,
+           locals: { display_details_link: true } %>
