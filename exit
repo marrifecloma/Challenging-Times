@@ -1,0 +1,41 @@
+[33mcommit 57e5a89a68a8e04c55d00068483c99c17b8da4ba[m
+Author: Marrife Cloma <marrifecloma@gmail.com>
+Date:   Wed Oct 25 06:41:58 2017 +0000
+
+    Added character model, added view to show all information in character table
+
+[33mcommit 78dda76e15e702f24263f2c6998520abb33234ad[m
+Author: Marrife Cloma <marrifecloma@gmail.com>
+Date:   Wed Oct 25 06:32:18 2017 +0000
+
+    Added character model, added faker gem, added 100 rows to character table
+
+[33mcommit 2a6bc3b0ccb419fd46132e154240941ea9c47678[m
+Author: Marrife Cloma <marrifecloma@gmail.com>
+Date:   Wed Oct 25 05:57:09 2017 +0000
+
+    Added lizard controller, added lizard view, add lizard links to navigations, added new gem for emoji
+
+[33mcommit 54df43b06c5d4938b238b54e1aeba8e3fa8a4be7[m
+Author: Marrife Cloma <marrifecloma@gmail.com>
+Date:   Wed Oct 25 05:12:33 2017 +0000
+
+    Changed routing URL
+
+[33mcommit 108cc61afce842800352734684d3e4352e17f5b4[m
+Author: Marrife Cloma <marrifecloma@gmail.com>
+Date:   Wed Oct 25 05:10:19 2017 +0000
+
+    Added Bootstrap, added navigation header with navigation links
+
+[33mcommit e9ba3ca76bade6438a29add264a5084a19b2c37d[m
+Author: Marrife Cloma <marrifecloma@gmail.com>
+Date:   Wed Oct 25 02:20:03 2017 +0000
+
+    Added home and about actions with associated views, added routing configuration
+
+[33mcommit ff1599a14fff52f9c528d449906893961b806d0e[m
+Author: Marrife Cloma <marrifecloma@gmail.com>
+Date:   Wed Oct 25 01:51:02 2017 +0000
+
+    Inital creation of challenge rails project. Created pages controller
